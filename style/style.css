@@ -1,6 +1,9 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
     
@@ -60,108 +63,219 @@ li.menu-item:hover a{
     
 }
 
+.titrevacance{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.paragrapheville{
+    margin-top: 0;
+}
+
 .headrecherche{
     display: flex;
     width: 400px;
-    border-radius: 10px;
     height: 50px;
-    
 }
 
+
 .icon{
-    width:  40px;
+    width:  50px;
     height: 50px;
     background-color: #f2f2f2;
-
-
-
+    border-radius: 15px 0px 0px 15px;
+    
 }
 
 .search{
     height: 50px;
+    width: 230px;
+    font-weight: lighter;
+    border-color: #f2f2f2;
+    border-style:  solid;
+    border-width: 1px;
+
 }
 
+.place{
+    height: 50px;
+    width: 250px;
+}
+
+
+
+
 .recherche{
-    width: 150px;
+    width:  150px;
     height: 50px;
     font-size: 15px;
-    font-weight: bold;
     color: white;
     background-color: #0065fc;
     justify-content: center;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
 }
 
 
-.containerfiltre{
-    display: flex;
-    
+/*filtre*/
 
+.sectionfiltre{
+    display: flex;
+    flex-direction: column;
+}
+
+.spacefiltre{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    
+}
+
+.filtre{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.infoville{
+    margin: 5px;
+}
+.flexcentre{
+    
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+
+}
+
+.flexbetween{
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
 }
 
 .titrefiltre{
     margin-right: 20px;
 }
 
-.divicons{
-    width: 150px;
-    border: solid;
+
+.titreincon{
+    border: 2px solid #f2f2f2;
+    height: 42px;
+    border-radius: 30px ;
     margin-right: 20px;
-    border-radius: 30px;
-    height: 40px;
+    width: 200px;
+}
+
+.titreeco{
+    width: 13%;
+}
+
+.titrefamilial{
+    width: 10%;
+}
+
+.titreroman{
+    width: 12%;
+}
+
+.flexincon{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    color: #0065fc;
+    background-color: #deebff;
+    margin: 0px;
+    
+   
+}
+
+.flexnom{
+    display: flex;
+    margin: auto;
+
+}
+
+
+.flexinfo{
     display: flex;
     
 }
 
-.filtreicons{
-    width: 40px;
-    height: 40px;
-    border-radius: 25px;
-    background-color: #deebff;
+.infoicon{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #f2f2f2;
+    color: #0065fc;
+    border-radius: 20px;
+    
+   
 }
 
-
-
-
-
+/*hebergement*/
 
 
 .container{
     display: flex;
     
+    width: 100%;
+    margin-bottom: 10px;
 
 }
 
+.starnone{
+    color: #f2f2f2;
+}
 
-/*hebergement*/
 .containerhebergement{
     
-    height: 650px;
+    height: 590px;
     border-radius: 10px;
     background-color: #f2f2f2;
-    margin: 10px;
+    margin-right: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: column;
-    flex: 2;
-    padding: 10px;
+    
+     
+    width: 70%;
+    
 
+}
+
+.partiehebergement{
+    display: flex;
+    width: 100%;
+    height: 430px;
+    flex-wrap: wrap;
+    margin: 0;
+    
     
 }
 
-.divpartie1{
+.hebergh2{
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
+    margin-top: 25px;
+    padding-left: 25px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
   
 .figurehebergement1{
-    border-radius: 20px 20px 20px 20px;
-    width: 30%;
-    height: 200px;
+    border-radius: 15px 15px 15px 15px;
+    width: 27%;
+    height: 43%;
     background-color: white;
     padding: 5px;
-    margin: 10px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-top: auto;
     
 
 }
@@ -169,33 +283,47 @@ li.menu-item:hover a{
 
 .img1{
     width: 100%;
-    height: 120px;
+    height: 60%;
     border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
 }
     
 
 .caption1{
     width: 100%;
+    height: 30%;
     flex-direction: column;
     padding-left: 10px;
     margin: 0px;
+    
 
 }
 
 .title1{
     
-    margin: 8px;
+    margin: 5px;
 
 }
 
 .paragraphe1{
-    margin: 8px;
+    margin: 5px;
+}
+
+
+.foothebergement{
+    
+    padding-right: 30x;
+   
+    padding-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 25px;
 }
 
 .divstarhebergement1{
-    margin: 8px;
+    margin: 5px;
     color: #0065fc;
-    margin: 8px;    
+    margin-top: 0px;
 }
 
 
@@ -207,19 +335,27 @@ li.menu-item:hover a{
 
 .divpartie2{
     display: flex;
-    
+    margin-bottom: 60px;
+}
 
-    padding: 0px;
+
+.flexpopulaire{
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
 }
   
 .figurehebergement2{
     border-radius: 20px 20px 20px 20px;
-    width: 30%;
+    
     height: 200px;
     background-color: white;
     padding: 5px;
-    margin: 10px;
-
+    margin: 20px;
+    width: 30%;
+    border: 2px solid;
 }
 
 
@@ -240,19 +376,19 @@ li.menu-item:hover a{
 
 .title2{
     
-    margin: 8px;
+    margin: 5px;
 
 }
 
 .paragraphe2{
-    margin: 8px;
+    margin: 5px;
 }
 
 
 .divstarhebergement2{
-    margin: 8px;
+    margin: 5px;
     color: #0065fc;
-    margin: 8px;    
+      
 }
 
 
@@ -263,16 +399,23 @@ li.menu-item:hover a{
 
 .containerpopulaire{
     
-    height: 650px;
-    margin-left: 10px;
+    height: 590px;
+    margin-left: 15px;
     border-radius: 10px;
     background-color: #f2f2f2;
-    margin: 10px;
+    width: 28%;
     display: flex;
     flex-direction: column;
-    flex: 1;
-
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-around;
+    
 }
+
+
+
+
 
 
 .figurepopulaire{
@@ -280,45 +423,46 @@ li.menu-item:hover a{
     background-color: white;
     display: flex;
     border-radius: 15px 15px 15px 15px;
-    width: 350px;
-    height: 200px;
-    width: 90%;
 
+    height: 140px;
+    width: 90%;
+    margin: 10px;
+    
 }
 
 
 
 .img3{
     width: 35%;
-    height: 160px;
+    height: 130px;
     border-radius: 15px 0px 0px 15px;
     padding: 5px;
+    object-fit: cover;
 }
 
 .caption3{
-    padding: 10px;
+    margin-left: 15px;
     display: flex;
     flex-direction: column;
     
 }
 
-.description3{
-    margin: 4px;
-}
+
 
 .litle3{
-    padding-top: 5px;
+    margin-top: 15px;
 }
 .paragraphe3{
-    margin-top: 2px;
-    margin-bottom: 3px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    
 }
 
 
-.divstar{
+.divstarpopulaire{
 
-    padding-top: 10px;
-    margin-left: 1px;
+    padding-bottom: 10px;
+    color: #0065fc;
 }
 
 
@@ -333,168 +477,196 @@ li.menu-item:hover a{
 
 /*activités à Marseille*/
 
+.sectionactivite{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
-.containeractivite{
 
+.boxactivite{
     display: flex;
-    height: 800px;
+    width: 100%;
+    height: 500px;
     justify-content: space-between;
-    background-color: yellow;
+   
 }
 
-.activité{
-    display: flex;
-}
 
-.divvieux{
-    width: 290px;
-    height: 450px;
+.figurevieux{
+    
+    width: 23%;
+    height: 100%;
     background-color: white;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
-
-}
-
-.figurevieux{
     margin: 0px;
-    width: 120px;
-    height: 90px;
 }
 
 .imgvieux{
-    width: 290px;
-    height: 400px;
+    width: 100%;
+    height: 90%;
     border-radius: 20px 20px 0px 0px;
-}
-
-
-.divpomègues{
-    width: 290px;
-    height: 225px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
-}
-
-.figurepomègues{
-
-    margin: 0px;
-    width: px;
-    height: 45px;
-}
-
-.imgpomègues{
-    width: 290px;
-    height: 200px;
-    border-radius: 20px 20px 0px 0px;
-}
-
-
-
-.divfrioul{
-    width: 290px;
-    height: 225px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
-}
-
-.figurefrioul{
-
-    margin: 0px;
-    width: px;
-    height: 45px;
-}
-
-.imgfrioul{
-    width: 290px;
-    height: 200px;
-    border-radius: 20px 20px 0px 0px;
-}
-
-
-.divcalanques{
-    width: 290px;
-    height: 450px;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
-
-}
-
-.figurecalanques{
-    margin: 0px;
-    width: 120px;
-    height: 90px;
-}
-
-.imgcalanques{
-    width: 290px;
-    height: 400px;
-    border-radius: 20px 20px 0px 0px;
-}
-
-
-.divdame{
-    width: 290px;
-    height: 225px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
-}
-
-.figuredame{
-
-    margin: 0px;
-    width: px;
-    height: 45px;
-}
-
-.imgdame{
-    width: 290px;
-    height: 200px;
-    border-radius: 20px 20px 0px 0px;
-}
-
-
-.divlongchamps{
-    width: 290px;
-    height: 225px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
-}
-
-.figurelongchamps{
-
-    margin: 0px;
-    width: px;
-    height: 45px;
-}
-
-.imglongchamps{
-    width: 290px;
-    height: 200px;
-    border-radius: 20px 20px 0px 0px;
-}
-
-
-
-
-.containerfooter{
-background-color: #f2f2f2;
-height: 300px;
-
-
-
-}
+    object-fit: cover;
     
+}
 
-.navfooter{
+.figurepom{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    margin: 0;
+}
+
+
+.imgpom{
+    width: 100%;
+    height: 80%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+.divact{
+    width: 23%;
+    height: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
 
+.figurefri{
+    width:  100%;
+    height: 40%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    margin: 0;
+
+}
+
+
+.imgfri{
+    width: 100%;
+    height: 75%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    }
+
+    .figurecal{
+    
+        width: 23%;
+        height: 100%;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px 1px #f2f2f2;
+        margin: 0;
+        
+    }
+    
+ 
+    .imgcal{
+        width: 100%;
+        height: 90%;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+        
+    }
+
+
+
+    .img6{
+        width: 100%;
+        height: 430px;
+        border-radius: 20px 20px 0px 0px;
+        
+    }
+
+
+    .figuredame{
+        width: 100%;
+        height: 45%;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px 1px #f2f2f2;
+        margin: 0;
+    }
+    
+    
+    .imgdame{
+        width: 100%;
+        height: 80%;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+}
+
+
+
+.figurelong{
+    width: 100%;
+    height: 45%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    margin: 0;
+
+}
+
+
+.imglong{
+    width: 100%;
+    height: 80%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 
 
 
-     
+.captionact{
+    margin-left: 25px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*footer*/
+
 
     
+.containerfooter{
+        width: 100%;
+    }
 
+    .divfooter{
+        display: flex;
+        width: 100%;
+        margin-top: 10px;
+        background-color: #f2f2f2;
+        height: 300px;
+        margin-top: 100px;
+    
+        margin: 0px;
+        
+
+    }
+
+    .divfooter1,.divfooter2,.divfooter3{
+       
+        width: 25%;
+        padding-right: 6%;
+        
+    }
+
+    .divfooter2{
+        padding-bottom: 2.8%;
+        
+    }
+
+    .divfooter3{
+        
+        
+    }

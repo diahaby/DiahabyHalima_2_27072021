@@ -1,0 +1,27 @@
+@media all and (max-width:375px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .container{
+        flex-direction: column-reverse;
+       
+    }
+        
+    .containerpopulaire{
+        width: 100%;
+    }
+    .containerhebergement{
+        width: 100%;
+        margin-right: 0;
+        height: auto;
+       
+    }
+    .partiehebergement{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+    }
+
+}

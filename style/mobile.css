@@ -1,7 +1,12 @@
-@media all and (max-width:375px) {
+@media all and (max-device-width:767px) {
     body{
         margin: 0;
         padding: 0;
+        margin: auto;
+    }
+
+    .filtre{
+        flex-direction: column;
     }
 
     .container{
@@ -16,12 +21,75 @@
         width: 100%;
         margin-right: 0;
         height: auto;
-       
+       margin-left: 25px;
+       background-color: white;
     }
-    .partiehebergement{
+    .blocpart1{
         flex-direction: column;
         flex-wrap: nowrap;
-        
+        height: auto;
     }
 
-}
+    .blocpart2{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+    .bloc1hebergement{
+        width: 96%;
+    }
+
+    .bloc2hebergement{
+        width: 96%;
+    }
+
+    .boxactivite{
+        flex-direction: column;
+        height: 1500px;
+        justify-content: space-between;
+        width: 90%;
+         
+    }
+
+    .divvieux{
+        width: 96%;
+        height: 14%;
+        margin-bottom: 5px;
+    }
+
+    .imgvieux{
+        height: 75%;
+    }
+
+    .divact{
+        width: 96%;
+        height: 45%;
+    }
+    
+    .divpom, .divfri{
+        height: 48%;
+    }
+    .divcal{
+        width: 96%;
+        height: 14%;
+    }
+
+    .imgcal{
+        height: 75%;
+    }
+    .divlong{
+        width: 96%;
+        height: 45%;
+    }
+
+    .divfooter{
+        height: auto;
+        flex-direction: column;
+    }
+
+    figure{
+        margin: 0;
+        padding: 0px;
+    }
+
+    }

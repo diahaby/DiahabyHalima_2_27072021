@@ -24,8 +24,9 @@ list-style-type: none;
 
 }
 
-.bordernav{
-    border-top: 1px solid #0065fc;
+.bordernav a:hover{
+    border-top: 1.5px solid #0065fc;
+    
     
 }
 ul.menu{
@@ -40,6 +41,7 @@ ul.menu{
 li.menu-item a{
     text-decoration: none;
     color: #0065fc;
+    
 }
 
 li.menu-item.login a{
@@ -80,13 +82,15 @@ li.menu-item:hover a{
 
 .headrecherche{
     display: flex;
-
+    width: 375px;
     height: 50px;
 }
 
 
+
+
 .icon{
-    width:  50px;
+    width:  43px;
     height: 50px;
     background-color: #f2f2f2;
     border-radius: 15px 0px 0px 15px;
@@ -95,7 +99,7 @@ li.menu-item:hover a{
 
 .search{
     height: 50px;
-    width: 230px;
+    width: 210px;
     font-weight: lighter;
     border-color: #f2f2f2;
     border-style:  solid;
@@ -120,6 +124,11 @@ li.menu-item:hover a{
     justify-content: center;
     border-radius: 0px 15px 15px 0px;
     border: none;
+}
+
+.recherche :hover{
+    cursor: pointer;
+    background-color: #7fb2fd;
 }
 
 
@@ -170,10 +179,17 @@ li.menu-item:hover a{
 
 .titreincon{
     border: 2px solid #d9d9d9;
-    height: 42px;
+    height: 45px;
     border-radius: 30px ;
     margin-right: 25px;
     width: 220px;
+}
+.titreincon :hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1.09);
+    
+
 }
 
 .titreeco{
@@ -189,15 +205,14 @@ li.menu-item:hover a{
 }
 
 .flexincon{
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     border-radius: 25px;
     color: #0065fc;
     background-color: #deebff;
     margin: -3px;
-    
-   
 }
+
 
 .flexnom{
     display: flex;
@@ -240,7 +255,8 @@ li.menu-item:hover a{
     margin-right: 15px;
     display: flex;  
     flex-direction: column;
-    width: 70%;       
+    width: 70%;
+    padding: 10px;       
 }
 
 .hebergh2{
@@ -264,18 +280,31 @@ li.menu-item:hover a{
     justify-content: space-evenly;
     margin-bottom: 20px;
     margin-top: 15px;
+    
+    
 }
+
 
 .bloc1hebergement{
     width: 29%;
     background-color: white;
     height: 200px;
     padding: 5px;
-    border-radius: 15px;
+    border-radius: 15px; 
 }
+
+.bloc1hebergement :hover{
+    cursor: pointer;
+    opacity: 0.9;
+    transform: scale(1.01);
+
+}
+
 
 .figurehebergement{
     margin: 0px;
+    
+    
 }
 
 .image1{
@@ -322,12 +351,7 @@ li.menu-item:hover a{
     margin-bottom: 15px;
 }
 
-.blocpart1{
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    margin-top: 15px;
-}
+
 
 .bloc2hebergement{
     width: 29%;
@@ -335,6 +359,14 @@ li.menu-item:hover a{
     height: 200px;
     padding: 5px;
     border-radius: 15px;
+    
+}
+
+.bloc2hebergement :hover{
+    cursor: pointer;
+    opacity: 0.9;
+    transform: scale(1.01);
+
 }
 
 .figurehebergement3{
@@ -392,7 +424,8 @@ li.menu-item:hover a{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 10px;   
+    padding: 10px;
+    align-items: center;   
 }
 
 .flexpopulaire{
@@ -409,11 +442,17 @@ li.menu-item:hover a{
     background-color: white;
     display: flex;
     border-radius: 15px;
-    width: 96%;
+    width: 85%;
     height: 23%;
-    margin: 0px;
     padding: 5px;
     margin-bottom: 28px;
+}
+
+.blocpopulaire :hover{
+    cursor: pointer;
+    opacity: 0.9;
+    transform: scale(1.01);
+
 }
 
 .figurepopulaire{
@@ -422,6 +461,7 @@ li.menu-item:hover a{
 }
 
 .img3{
+    min-width: 130px;
     width: 35%;
     height: 100%;
     border-radius: 15px 0px 0px 15px;
@@ -481,6 +521,13 @@ li.menu-item:hover a{
     width: 100%;
     height: 480px;
     justify-content: space-between;
+}
+
+.boxactivite :hover{
+    cursor: pointer;
+    opacity: 0.9;
+    transform: scale(1.01);
+
 }
 
 .divvieux{
@@ -662,7 +709,7 @@ height: 100%;
     .divfooter1,.divfooter2,.divfooter3{
        
         width: 25%;
-        padding-right: 5%;
+        margin-right: 5%;
         
     }
 

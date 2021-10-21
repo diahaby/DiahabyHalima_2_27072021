@@ -24,11 +24,11 @@ list-style-type: none;
 
 }
 
+
 .bordernav a:hover{
-    border-top: 1.5px solid #0065fc;
-    
-    
+    border-top: 2px solid #0065fc;
 }
+
 ul.menu{
     display: flex;
     list-style-type: none;
@@ -41,11 +41,16 @@ ul.menu{
 li.menu-item a{
     text-decoration: none;
     color: #0065fc;
-    
+}
+
+.menuact a{
+    color: black;
+    text-decoration: none;
 }
 
 li.menu-item.login a{
     font-weight: bold;
+    
 }
 
 li.menu-item:hover a{
@@ -86,7 +91,16 @@ li.menu-item:hover a{
     height: 50px;
 }
 
+.headrecherche :hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    opacity: 0.6;
 
+}
+
+.placeholder{
+    padding-left: 45px;
+}
 
 
 .icon{
@@ -104,8 +118,10 @@ li.menu-item:hover a{
     border-color: #f2f2f2;
     border-style:  solid;
     border-width: 1px;
+    padding-left: 15px;
 
 }
+
 
 .place{
     height: 50px;
@@ -124,6 +140,7 @@ li.menu-item:hover a{
     justify-content: center;
     border-radius: 0px 15px 15px 0px;
     border: none;
+    cursor: pointer;
 }
 
 .recherche :hover{
@@ -150,7 +167,11 @@ li.menu-item:hover a{
     align-items: center;
     
 }
-
+.filtre :hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transform: scale(1.09);
+}
 
 .infoville{
     margin: 5px;
@@ -186,8 +207,9 @@ li.menu-item:hover a{
 }
 .titreincon :hover{
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 0.9;
     transform: scale(1.09);
+    
     
 
 }
@@ -210,10 +232,15 @@ li.menu-item:hover a{
     border-radius: 25px;
     color: #0065fc;
     background-color: #deebff;
-    margin: -3px;
+    margin: -1px;
 }
 
+.flexincon :hover{
+    
+    cursor: pointer;
+    
 
+}
 .flexnom{
     display: flex;
     margin: auto;
@@ -282,6 +309,10 @@ li.menu-item:hover a{
     margin-top: 15px;
     
     
+}
+
+.stargris{
+    color: #deebff;
 }
 
 

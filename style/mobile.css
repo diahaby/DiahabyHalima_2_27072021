@@ -16,6 +16,8 @@
         
     .containerpopulaire{
         width: 100%;
+        padding: 0px;
+        padding-left: 0px;
     }
     .lienpopulaire{
         height: 26%;
@@ -30,7 +32,12 @@
         height: auto;
        margin-left: 25px;
        background-color: white;
-       
+       padding: 0px;
+    }
+
+    .hebergh2{
+        padding-left: 0px;
+
     }
 
     .lienhebergement{
@@ -42,6 +49,7 @@
         flex-wrap: nowrap;
         height: auto;
         width: 100%;
+        margin-bottom: 0px;
         
     }
     .lien2{
@@ -52,26 +60,39 @@
         flex-direction: column;
         flex-wrap: nowrap;
         height: auto;
+        margin-top: 0px;
     }
     .bloc1hebergement{
-        width: 100%;
+        width: 90%;
+        margin-bottom: 25px;
     }
 
     .bloc2hebergement{
-        width: 96%;
+        width: 90%;
+        margin-bottom: 25px;
+    }
+
+    .foothebergement{
+        padding-left: 0px;
+        margin-top: 0px;
     }
 
     .boxactivite{
         flex-direction: column;
-        height: 1500px;
+        height: auto;
         justify-content: space-between;
-        width: 90%;
+        width: 100%;
+        margin-left: 25px;
          
     }
 
-    .divvieux{
-        width: 96%;
-        height: 14%;
+    .lienvieux, .liencal{
+        width: 90%;
+        height: 200px;
+    }
+    .divvieux, .dical{
+        width: 100%;
+        height: 100%;
         margin-bottom: 5px;
     }
 
@@ -80,25 +101,28 @@
     }
 
     .divact{
-        width: 96%;
-        height: 45%;
+        width: 100%;
+        height: 28%;
     }
     
-    .divpom, .divfri{
-        height: 48%;
+    .lienpom, .lienfri, .liendame, .lienlong{
+        width: 90%;
+        height: 200px;
     }
-    .divcal{
-        width: 96%;
-        height: 14%;
+    .divpom, .divfri, .divdame, .divlong{
+        width: 100%;
+        height: 100%;
+        margin-top: 25px;
     }
+
+
+    
+    
 
     .imgcal{
         height: 75%;
     }
-    .divlong{
-        width: 96%;
-        height: 45%;
-    }
+    
 
     .divfooter{
         height: auto;

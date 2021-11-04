@@ -1,4 +1,4 @@
-@media all and (max-device-width:767px) {
+@media all and (max-width:767px) {
     body{
         margin: 0;
         padding: 0;
@@ -17,17 +17,35 @@
     .containerpopulaire{
         width: 100%;
     }
+    .lienpopulaire{
+        height: 26%;
+    }
+
+    .blocpopulaire{
+        width: 90%;
+    }
     .containerhebergement{
         width: 100%;
         margin-right: 0;
         height: auto;
        margin-left: 25px;
        background-color: white;
+       
+    }
+
+    .lienhebergement{
+        width: 90%;
+        
     }
     .blocpart1{
         flex-direction: column;
         flex-wrap: nowrap;
         height: auto;
+        width: 100%;
+        
+    }
+    .lien2{
+        width: 90%;
     }
 
     .blocpart2{
@@ -36,7 +54,7 @@
         height: auto;
     }
     .bloc1hebergement{
-        width: 96%;
+        width: 100%;
     }
 
     .bloc2hebergement{

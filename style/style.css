@@ -5,7 +5,7 @@ body{
     flex-direction: column;
     font-family: 'Raleway', sans-serif;
     
-    
+
 }
 
     
@@ -27,6 +27,7 @@ list-style-type: none;
 
 .bordernav a:hover{
     border-top: 2px solid #0065fc;
+    padding: 20px;
 }
 
 ul.menu{
@@ -289,8 +290,8 @@ li.menu-item:hover a{
 .hebergh2{
     display: flex;
     padding-left: 35px;
-    margin-bottom: 0px;   
-    padding-top: 20px;
+      
+    
 }
 
 .partiehebergement0{
@@ -315,13 +316,19 @@ li.menu-item:hover a{
     color: #deebff;
 }
 
+.lienhebergement{
+    width: 29%;
+    text-decoration: none;
+    color: black;
+}
 
 .bloc1hebergement{
-    width: 29%;
+    width: 100%;
     background-color: white;
     height: 200px;
     padding: 5px;
     border-radius: 15px; 
+    box-shadow: 6px 6px 6px 6px #e6e6e6;
 }
 
 .bloc1hebergement :hover{
@@ -382,14 +389,19 @@ li.menu-item:hover a{
     margin-bottom: 15px;
 }
 
-
+.lien2{
+    width: 29%;
+    text-decoration: none;
+    color: black ;
+}
 
 .bloc2hebergement{
-    width: 29%;
+    width: 100%;
     background-color: white;
     height: 200px;
     padding: 5px;
     border-radius: 15px;
+    box-shadow: 6px 6px 6px 6px #e6e6e6;
     
 }
 
@@ -460,8 +472,12 @@ li.menu-item:hover a{
 }
 
 .flexpopulaire{
+    width: 95%;
     display: flex;
     justify-content: space-between; 
+}
+.titrepo{
+    margin: 0px;
 }
   
 .charte{
@@ -469,14 +485,22 @@ li.menu-item:hover a{
     margin-top: 24px;
 }
 
+.lienpopulaire{
+    height: 23%;
+    text-decoration: none;
+    color: black;
+}
+
 .blocpopulaire{
     background-color: white;
     display: flex;
     border-radius: 15px;
     width: 85%;
-    height: 23%;
+    height: 100%;
     padding: 5px;
-    margin-bottom: 28px;
+    margin: auto;
+    box-shadow: 6px 6px 6px 0px #e6e6e6;
+    
 }
 
 .blocpopulaire :hover{
@@ -561,8 +585,15 @@ li.menu-item:hover a{
 
 }
 
-.divvieux{
+.lienvieux{
     width: 23%;
+    text-decoration: none;
+    color: black;
+}
+
+
+.divvieux{
+    width: 100%;
     height: 100%;
     background-color: white;
     border-radius: 20px;
@@ -582,9 +613,16 @@ height: 100%;
     object-fit: cover;
 }
 
+.lienpom{
+   width: 100%;
+   height: 52%; 
+   text-decoration: none;
+   color: black;
+}
+
 .divpom{
     width: 100%;
-    height: 52%;
+    height: 100%;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
     margin: 0;
@@ -610,9 +648,16 @@ height: 100%;
     justify-content: space-between;   
 }
 
+.lienfri{
+    width: 100%;
+    height: 36%;
+    text-decoration: none;
+    color: black;
+}
+
 .divfri{
     width:  100%;
-    height: 36%;
+    height: 100%;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
     margin: 0;
@@ -631,8 +676,13 @@ height: 100%;
     
 }
 
-.divcal{ 
+.liencal{
     width: 23%;
+    text-decoration: none;
+    color: black;
+}
+.divcal{ 
+    width: 100%;
     height: 100%;
     background-color: white;
     border-radius: 20px;
@@ -652,12 +702,17 @@ height: 100%;
     object-fit: cover;
 }
 
-
+.liendame{
+    width: 100%;
+    height: 43%;
+    text-decoration: none;
+    color: black;
+}
 
 
     .divdame{
         width: 100%;
-        height: 43%;
+        height: 100%;
         border-radius: 20px;
         box-shadow: 5px 5px 5px 1px #f2f2f2;
         margin: 0;
@@ -675,11 +730,17 @@ height: 100%;
         object-fit: cover;
 }
 
+.lienlong{
+    width: 100%;
+    height: 46%;
+    color: black;
+    text-decoration: none;
+}
 
 
 .divlong{
     width: 100%;
-    height: 46%;
+    height: 100%;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
     margin: 0;

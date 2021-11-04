@@ -5,10 +5,19 @@
         margin: auto;
     }
 
+    
+    .titrevacance{
+        width: 75%;
+    }
     .filtre{
         flex-direction: column;
+        align-items: flex-start;
+        margin-left: 25px;
     }
-
+    
+    .flexinfo{
+        width: 90%;
+    }
     .container{
         flex-direction: column-reverse;
        
@@ -18,9 +27,11 @@
         width: 100%;
         padding: 0px;
         padding-left: 0px;
+        margin-left: 0px;
     }
     .lienpopulaire{
-        height: 26%;
+        height: 145px;
+        width: 90%;
     }
 
     .blocpopulaire{
@@ -37,9 +48,12 @@
 
     .hebergh2{
         padding-left: 0px;
-
+        
     }
 
+    .acth2{
+        margin-left: 25px;
+    }
     .lienhebergement{
         width: 90%;
         
@@ -64,12 +78,12 @@
     }
     .bloc1hebergement{
         width: 90%;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
     }
 
     .bloc2hebergement{
         width: 90%;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
     }
 
     .foothebergement{
@@ -88,7 +102,7 @@
 
     .lienvieux, .liencal{
         width: 90%;
-        height: 200px;
+        height: 190px;
     }
     .divvieux, .dical{
         width: 100%;
@@ -102,12 +116,12 @@
 
     .divact{
         width: 100%;
-        height: 28%;
+        height: 400px;
     }
     
     .lienpom, .lienfri, .liendame, .lienlong{
         width: 90%;
-        height: 200px;
+        height: 190px;
     }
     .divpom, .divfri, .divdame, .divlong{
         width: 100%;
@@ -125,8 +139,17 @@
     
 
     .divfooter{
-        height: auto;
+        width: 100%;
+        height: 485px;
         flex-direction: column;
+        padding-left: 25px;
+    }
+
+    .divfooter1, .divfooter2, .divfooter3{
+        width: 100%;
+        margin-right: 0px;
+        
+        
     }
 
     figure{

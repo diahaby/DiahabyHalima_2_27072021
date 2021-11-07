@@ -8,6 +8,7 @@ body{
 
 }
 
+
     
 
 nav.nav{
@@ -36,6 +37,11 @@ ul.menu{
     width: 300px;
     padding: 0px;
 
+}
+
+li.menu-item1 a{
+    text-decoration: none;
+    color: #0065fc;
 }
 
 li.menu-item a{

@@ -1,8 +1,8 @@
 @media all and (max-width:767px) {
     body{
         
-        width: 100%;
-        margin: 0px;
+        
+        margin: 2px;
     }
 
     .header{
@@ -20,19 +20,27 @@
 
     .menu-item1{
         margin-left: 20px;
+        border-bottom: 3px solid #0065fc;
+        width: 50%;
         
-
     }
 
     .menu-item{
         position: relative;
         bottom: 50px;
+        
     }
     
     .menuact{
         position: relative;
         left: 55px;
+        border-bottom: 2px solid #f2f2f2;
+        width: 50%;
     }
+    
+    
+    
+
     .place{
         width: 190px;
     }
@@ -84,16 +92,16 @@
     .containerpopulaire{
         width: 100%;
         padding: 0px;
-        padding-left: 0px;
-        margin-left: 0px;
+        
+        
     }
     .lienpopulaire{
         height: 145px;
-        width: 90%;
+        width: 95%;
     }
 
     .blocpopulaire{
-        width: 90%;
+        width: 95%;
     }
     .containerhebergement{
         width: 100%;
@@ -113,7 +121,7 @@
         margin-left: 25px;
     }
     .lienhebergement{
-        width: 90%;
+        width: 95%;
         
     }
     .blocpart1{
@@ -125,7 +133,7 @@
         
     }
     .lien2{
-        width: 90%;
+        width: 95%;
     }
 
     .blocpart2{
@@ -151,7 +159,7 @@
 
     .boxactivite{
         flex-direction: column;
-        height: auto;
+        height: 1200px;
         justify-content: space-between;
         width: 100%;
         margin-left: 25px;

@@ -171,6 +171,7 @@ li.menu-item:hover a{
 .filtre{
     display: flex;
     align-items: center;
+    font-weight: bold;
     
 }
 .filtre :hover{
@@ -238,7 +239,7 @@ li.menu-item:hover a{
     border-radius: 25px;
     color: #0065fc;
     background-color: #deebff;
-    margin: -1px;
+    margin: -5px;
 }
 
 .flexincon :hover{
@@ -318,7 +319,7 @@ li.menu-item:hover a{
 }
 
 .stargris{
-    color: #deebff;
+    color: #d9d9d9;
 }
 
 .lienhebergement{
@@ -487,7 +488,7 @@ li.menu-item:hover a{
   
 .charte{
     font-size: 20px;
-    margin-top: 24px;
+    
 }
 
 .lienpopulaire{

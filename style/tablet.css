@@ -1,8 +1,98 @@
-@media all and (max-width: 768px) and (min-width: 376px) {
+@media all and (max-width: 768px) {
 .body{
     width: 100%;
+    margin: 0px;
 }
-nav.nav{
-    display: block;
+
+.logoreservia{
+    width: 200PX;
 }
+.nav{
+    
+    flex-direction: column;
+}
+
+.nav .nav{
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 30px;
+
+}
+
+.menu{
+    margin: auto;
+    width: 400px;
+}
+
+.headhebergement{
+    margin-bottom: 30px;
+}
+
+.paragrapheville{
+    margin-bottom: 30px;
+}
+
+.filtre{
+    height: 120px;
+    margin-bottom: 100px;
+    
+    flex-direction: column;
+}
+
+
+
+
+.container{
+    flex-direction: column-reverse;
+}
+
+
+
+.containerpopulaire{
+    
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+.lienpopulaire{
+    height: 145px;
+    width: 90%;
+}
+
+.blocpopulaire{
+    width: 90%;
+}
+
+.containerhebergement{
+    width: 100%;
+    padding: 0px;
+
+}
+
+.boxactivite{
+    flex-direction: column;
+    width: 100%;
+    height: initial;
+}
+
+.lienvieux, .lienpom, .lienfri, .liencal, .liendame, .lienlong{
+    width: 95%;
+    height: 255px;
+    margin: 20px;
+}
+
+.divact{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
 }

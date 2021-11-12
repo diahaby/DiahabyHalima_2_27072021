@@ -1,11 +1,17 @@
-@media all and (max-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 1024px) {
 .body{
-    width: 100%;
-    margin: 0px;
+    
+    margin: 0px;    
 }
 
+
+    
+
+
 .logoreservia{
-    width: 200PX;
+    
+
+    width: 200px;
 }
 .nav{
     
@@ -21,22 +27,34 @@
 
 .menu{
     margin: auto;
-    width: 400px;
-}
-
-.headhebergement{
     margin-bottom: 30px;
 }
 
+.titrevacance{
+    display: flex;
+    justify-content: center;
+}
+
+.headhebergement{
+    justify-content: center;
+    
+}
+
 .paragrapheville{
+    display: flex;
+    justify-content: center;
     margin-bottom: 30px;
 }
 
 .filtre{
-    height: 120px;
-    margin-bottom: 100px;
+    height: initial;
+    margin-bottom: 20px;
     
     flex-direction: column;
+}
+
+.titreicon, .titrefamilial, .titreeco,.titreroman, .titreanimaux{
+    margin-bottom: 10px;
 }
 
 
@@ -68,6 +86,7 @@
 .containerhebergement{
     width: 100%;
     padding: 0px;
+    margin: 0px;
 
 }
 
@@ -80,14 +99,17 @@
 .lienvieux, .lienpom, .lienfri, .liencal, .liendame, .lienlong{
     width: 95%;
     height: 255px;
-    margin: 20px;
+    margin: 0px;
+    margin-bottom: 20px;
 }
 
 .divact{
     width: 100%;
 }
 
-
+.imgvieux, .imgpom, .imgcal, .imgfri, .imgdame,.imglong{
+    height: 75%;
+}
 
 
 

@@ -2,11 +2,11 @@
     body{
         
         
-        margin: 2px;
+        margin: 0px;
     }
 
     .header{
-        padding-left: 15px;
+        padding-left: 0px;
     }
     
     .headrecherche{
@@ -17,27 +17,49 @@
         display: block;
 
     }
-
-    .menu-item1{
-        margin-left: 20px;
-        border-bottom: 3px solid #0065fc;
-        width: 50%;
+    ul.menu{
+        width: 100%;
         
     }
 
-    .menu-item{
+    
+
+    .menu-item.login{
+        border-bottom: 0px;
         position: relative;
         bottom: 50px;
+        padding: 0px;
         
     }
+
+    .menu-item1{
+        border-bottom: 2px solid #0065fc;
+    }
     
-    .menuact{
+     .bordernav.menuact{
         position: relative;
         left: 55px;
         border-bottom: 2px solid #f2f2f2;
-        width: 50%;
+        
+        
     }
     
+
+    .bordernav a:hover{
+        border-top: 0px;
+        
+    }
+
+    .bordernav{
+        border-top: 0px;
+        
+        
+        
+    }
+
+    li.menu-item:hover a{
+        color: #7fb2fd;
+    }
     
     
 
@@ -92,6 +114,7 @@
     .containerpopulaire{
         width: 100%;
         padding: 0px;
+        margin: 0px;
         
         
     }
@@ -101,13 +124,13 @@
     }
 
     .blocpopulaire{
-        width: 95%;
+        width: 96%;
     }
     .containerhebergement{
         width: 100%;
         margin-right: 0;
         height: auto;
-       margin-left: 25px;
+       
        background-color: white;
        padding: 0px;
     }
@@ -130,6 +153,7 @@
         height: auto;
         width: 100%;
         margin-bottom: 0px;
+        align-items: center;
         
     }
     .lien2{
@@ -141,14 +165,16 @@
         flex-wrap: nowrap;
         height: auto;
         margin-top: 0px;
+        align-items: center;
     }
     .bloc1hebergement{
-        width: 90%;
+        width: 96%;
         margin-bottom: 15px;
+        
     }
 
     .bloc2hebergement{
-        width: 90%;
+        width: 96%;
         margin-bottom: 15px;
     }
 
@@ -157,23 +183,28 @@
         margin-top: 0px;
     }
 
+   
+
     .boxactivite{
         flex-direction: column;
-        height: 1200px;
+        height: initial;
         justify-content: space-between;
-        width: 100%;
-        margin-left: 25px;
+        width: 96%;
+        display: flex;
+        align-items: center;
+        
          
     }
 
     .lienvieux, .liencal{
-        width: 90%;
+        width: 96%;
         height: 190px;
+        margin-bottom: 20px;
     }
     .divvieux, .dical{
         width: 100%;
         height: 100%;
-        margin-bottom: 5px;
+        
     }
 
     .imgvieux{
@@ -182,17 +213,19 @@
 
     .divact{
         width: 100%;
-        height: 400px;
+        height: initial;
+        align-items: center;
     }
     
     .lienpom, .lienfri, .liendame, .lienlong{
-        width: 90%;
+        width: 96%;
         height: 190px;
+        margin-bottom: 20px;
     }
     .divpom, .divfri, .divdame, .divlong{
         width: 100%;
         height: 100%;
-        margin-top: 25px;
+        
     }
 
 
@@ -205,16 +238,16 @@
     
 
     .divfooter{
-        width: 90%;
+        width: 96%;
         height: 485px;
         flex-direction: column;
-        padding-left: 25px;
+        padding: 0px;
     }
 
     .divfooter1, .divfooter2, .divfooter3{
         width: 100%;
         margin-right: 0px;
-        
+        padding-left: 30px;
         
     }
 

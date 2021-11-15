@@ -1,11 +1,8 @@
 @media all and (min-width: 768px) and (max-width: 1024px) {
 .body{
-    
+    padding: 0px;
     margin: 0px;    
 }
-
-
-    
 
 
 .logoreservia{
@@ -111,7 +108,9 @@
     height: 75%;
 }
 
-
+.divfooter2{
+    margin-bottom: 25px;
+}
 
 
 

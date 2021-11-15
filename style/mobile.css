@@ -34,6 +34,7 @@
 
     .menu-item1{
         border-bottom: 2px solid #0065fc;
+        margin-left: 15px;
     }
     
      .bordernav.menuact{
@@ -44,20 +45,20 @@
         
     }
     
+    .bordernav{
+        padding-bottom: 20px;
+        border-bottom: 2px solid #0065fc;
+        width: 50%;
+    }
 
     .bordernav a:hover{
         border-top: 0px;
         
     }
 
-    .bordernav{
-        border-top: 0px;
-        
-        
-        
-    }
+    
 
-    li.menu-item:hover a{
+    li.menu-item a:hover{
         color: #7fb2fd;
     }
     

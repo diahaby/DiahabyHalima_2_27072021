@@ -26,29 +26,28 @@
 
     .menu-item.login{
         border-bottom: 0px;
-        position: relative;
-        bottom: 50px;
+        position: absolute;
+        top: 20px;
         padding: 0px;
+        left: 297px;
+        
         
     }
 
     .menu-item1{
         border-bottom: 2px solid #0065fc;
-        margin-left: 15px;
+        text-align: center;
     }
     
-     .bordernav.menuact{
-        position: relative;
-        left: 55px;
-        border-bottom: 2px solid #f2f2f2;
-        
-        
+     .bordernav.menuact{       
+        text-align: center;
+        border-bottom: 2px solid #f2f2f2;        
     }
     
     .bordernav{
         padding-bottom: 20px;
         border-bottom: 2px solid #0065fc;
-        width: 50%;
+        width: 100%;
     }
 
     .bordernav a:hover{
@@ -58,8 +57,9 @@
 
     
 
-    li.menu-item a:hover{
+    li.menu-item{
         color: #7fb2fd;
+        
     }
     
     
@@ -70,6 +70,13 @@
     .recherche{
         width: 55px;
         border-radius: 15px;
+    }
+    .recherche{
+        text-decoration: none;
+    }
+
+    .fas fa-search{
+        align-items: center;
     }
     
     .titrevacance{
@@ -239,16 +246,16 @@
     
 
     .divfooter{
-        width: 96%;
+        width: 100%;
         height: 485px;
         flex-direction: column;
         padding: 0px;
     }
 
     .divfooter1, .divfooter2, .divfooter3{
-        width: 100%;
+        width: 85%;
         margin-right: 0px;
-        padding-left: 30px;
+        
         
     }
 

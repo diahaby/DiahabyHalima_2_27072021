@@ -1,29 +1,18 @@
-body{
-    
-    
+body{ 
     display: flex;
     flex-direction: column;
     font-family: "Raleway", sans-serif;
-    
-
 }
-
-
-    
 
 nav.nav{
     display: flex;
-    justify-content: space-between;
-    
-       
+    justify-content: space-between;  
 }
 
 div.div{
 display: flex;
 list-style-type: none;
-
 }
-
 
 .bordernav a:hover{
     border-top: 2px solid #0065fc;
@@ -36,7 +25,6 @@ ul.menu{
     justify-content: space-between;
     width: 300px;
     padding: 0px;
-
 }
 
 li.menu-item1 a{
@@ -55,36 +43,19 @@ li.menu-item a{
 }
 
 li.menu-item.login a{
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 
 li.menu-item:hover a{
     color: #7fb2fd;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .headhebergement{
-    display: flex;
-    
+    display: flex; 
 }
 
 .titrevacance{
     margin-bottom: 0;
-    
 }
 
 .paragrapheville{
@@ -99,21 +70,17 @@ li.menu-item:hover a{
 
 .headrecherche :hover{
     cursor: pointer;
-
-
 }
 
 .placeholder{
     padding-left: 45px;
 }
 
-
 .icon{
     width:  43px;
     height: 50px;
     background-color: #f2f2f2;
     border-radius: 15px 0px 0px 15px;
-    
 }
 
 .search{
@@ -124,17 +91,16 @@ li.menu-item:hover a{
     border-style:  solid;
     border-width: 1px;
     padding-left: 15px;
-
 }
-
 
 .place{
     height: 50px;
     width: 230px;
 }
 
-
-
+.louche{
+    display: none;
+}
 
 .recherche{
     width:  150px;
@@ -164,7 +130,6 @@ li.menu-item:hover a{
 .spacefiltre{
     margin-top: 20px;
     margin-bottom: 20px;
-    
 }
 
 .filtre{
@@ -175,34 +140,29 @@ li.menu-item:hover a{
 }
 .filtre :hover{
     cursor: pointer;
-    opacity: 0.7;
-    transform: scale(1.09);
+    transform: scale(1.01);
 }
 
 .infoville{
     margin: 5px;
 }
+
 .flexcentre{
-    
-    
     align-items: center;
     display: flex;
     justify-content: center;
     margin: 15px;
-
 }
 
 .flexbetween{
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
     justify-content: space-between;
 }
 
 .titrefiltre{
     margin-right: 20px;
 }
-
 
 .titreincon{
     border: 2px solid #d9d9d9;
@@ -211,13 +171,11 @@ li.menu-item:hover a{
     margin-right: 25px;
     width: 220px;
 }
+
 .titreincon :hover{
     cursor: pointer;
     opacity: 0.9;
     transform: scale(1.09);
-    
-    
-
 }
 
 .titreeco{
@@ -242,21 +200,15 @@ li.menu-item:hover a{
 }
 
 .flexincon :hover{
-    
     cursor: pointer;
-    
-
 }
 .flexnom{
     display: flex;
     margin: auto;
-
 }
-
 
 .flexinfo{
     display: flex;
-    
 }
 
 .infoicon{
@@ -266,7 +218,6 @@ li.menu-item:hover a{
     color: #0065fc;
     border-radius: 20px;
     margin-right: 10px;
-   
 }
 
 /*hebergement*/
@@ -279,7 +230,6 @@ li.menu-item:hover a{
     margin-bottom: 10px;
     height: auto;    
 }
-
 
 .containerhebergement{ 
     height: 625px;
@@ -295,8 +245,6 @@ li.menu-item:hover a{
 .hebergh2{
     display: flex;
     padding-left: 35px;
-      
-    
 }
 
 .partiehebergement0{
@@ -312,9 +260,7 @@ li.menu-item:hover a{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    margin-top: 15px;
-    
-    
+    margin-top: 15px;   
 }
 
 .stargris{
@@ -340,14 +286,11 @@ li.menu-item:hover a{
     cursor: pointer;
     opacity: 0.9;
     transform: scale(1.01);
-
 }
 
 
 .figurehebergement{
     margin: 0px;
-    
-    
 }
 
 .image1{
@@ -361,7 +304,6 @@ li.menu-item:hover a{
     padding-top: 5px;
     padding-left: 5px;
 }
-
 
 .title1{
     margin: 0px;
@@ -382,8 +324,6 @@ li.menu-item:hover a{
 .starnone{
     color: #d9d9d9;
 }
-
-
 
 /* partie 2 hebergement*/
 
@@ -406,15 +346,13 @@ li.menu-item:hover a{
     height: 200px;
     padding: 5px;
     border-radius: 15px;
-    box-shadow: 6px 6px 6px 6px #e8e8e8;
-    
+    box-shadow: 6px 6px 6px 6px #e8e8e8; 
 }
 
 .bloc2hebergement :hover{
     cursor: pointer;
     opacity: 0.9;
     transform: scale(1.01);
-
 }
 
 .figurehebergement3{
@@ -450,7 +388,6 @@ li.menu-item:hover a{
     color: #0065fc;
 }
 
-
 .foothebergement{
     font-size: 1.2em;
     font-weight: bold;
@@ -459,9 +396,7 @@ li.menu-item:hover a{
 }
 
 
-
 /*les plus populaire*/
-
 
 .containerpopulaire{  
     height: 625px;
@@ -486,8 +421,7 @@ li.menu-item:hover a{
 }
   
 .charte{
-    font-size: 20px;
-    
+    font-size: 20px;  
 }
 
 .lienpopulaire{
@@ -505,14 +439,12 @@ li.menu-item:hover a{
     padding: 5px;
     margin: auto;
     box-shadow: 6px 6px 6px 0px #e6e6e6;
-    
 }
 
 .blocpopulaire :hover{
     cursor: pointer;
     opacity: 0.9;
     transform: scale(1.01);
-
 }
 
 .figurepopulaire{
@@ -538,9 +470,7 @@ li.menu-item:hover a{
     padding-top: 10px;
 }
 
-
 .title3{
-    
     margin-bottom: 5px;
     margin-top: 0;
     font-size: 00.95em;
@@ -560,21 +490,12 @@ li.menu-item:hover a{
     font-size: 12px;
 }
 
-
-
-
-
-
-
-
-
 /*activités à Marseille*/
 
 .sectionactivite{
     margin-top: 25px;
     margin-bottom: 50px;
 }
-
 
 .boxactivite{
     display: flex;
@@ -587,7 +508,6 @@ li.menu-item:hover a{
     cursor: pointer;
     opacity: 0.9;
     transform: scale(1.01);
-
 }
 
 .lienvieux{
@@ -595,7 +515,6 @@ li.menu-item:hover a{
     text-decoration: none;
     color: black;
 }
-
 
 .divvieux{
     width: 100%;
@@ -714,25 +633,24 @@ height: 100%;
     color: black;
 }
 
-
-    .divdame{
-        width: 100%;
-        height: 100%;
-        border-radius: 20px;
-        box-shadow: 5px 5px 5px 1px #f2f2f2;
-        margin: 0;
-    }
+.divdame{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    margin: 0;
+}
     
-    .figuredame{
-        margin: 0px;
-        height: 100%;
-    }
+.figuredame{
+    margin: 0px;
+    height: 100%;
+}
     
-    .imgdame{
-        width: 100%;
-        height: 79%;
-        border-radius: 20px 20px 0px 0px;
-        object-fit: cover;
+.imgdame{
+    width: 100%;
+    height: 79%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 .lienlong{
@@ -742,14 +660,12 @@ height: 100%;
     text-decoration: none;
 }
 
-
 .divlong{
     width: 100%;
     height: 100%;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
     margin: 0;
-
 }
 
 .figurelong{
@@ -764,9 +680,6 @@ height: 100%;
     object-fit: cover;
 }
 
-
-
-
 .captionact{
     margin-left: 25px;
     padding-top: 10px;
@@ -774,45 +687,32 @@ height: 100%;
 }
 
 
-
-
-
-
-
-
-
 /*footer*/
-
-
-    
+  
 .containerfooter{
-        width: 100%;
-        height: auto;
-    }
+    width: 100%;
+    height: auto;
+}
 
-    .divfooter{
-        display: flex;
-        width: 100%;
-        margin-top: 10px;
-        background-color: #f2f2f2;
-        height: 300px;
-        margin-top: 100px;
-    
-        margin: 0px;
-        
+.divfooter{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #f2f2f2;
+    height: 300px;
+    margin-top: 100px;
+    margin: 0px;
+}
 
-    }
-
-    .divfooter1,.divfooter2,.divfooter3{
+.divfooter1,.divfooter2,.divfooter3{
        
-        width: 25%;
-        margin-right: 5%;
+    width: 25%;
+    margin-right: 5%;
         
-    }
+}
 
-    .divfooter2{
-        padding-bottom: 2.8%;
-        
-    }
+.divfooter2{
+    padding-bottom: 2.8%;     
+}
 
     

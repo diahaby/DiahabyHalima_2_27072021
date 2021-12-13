@@ -14,16 +14,28 @@
     }
 
     nav.nav{
-        display: block;
-        position: relative;
-        
+        display: flex;
     }
     ul.menu{
         width: 100%;
         
     }
 
+    .logoreservia{
+        width: 100px;
+        margin-bottom: 86px;
+    }
+
+    .lienmenu{
+        flex-direction: column-reverse;
+        
+    }
     
+    .lieninscrire, .bordernav{
+        
+        border-bottom: 0px;
+        
+    }
     
 
     .menu-item.login{
@@ -47,8 +59,9 @@
         padding: 0px;
     }
 
-     .bordernav.menuact{       
-        text-align: center;
+    .menuact{       
+        margin-left: 0px;
+        margin-right: 0px;
         border-bottom: 2px solid #f2f2f2;        
     }
     
@@ -86,6 +99,10 @@
         display: none;
     }
 
+    .falouche{
+        margin-left: 20px;
+        margin-top: 17px;
+    }
     .louche{
         display: initial;
         width: 55px;
@@ -154,6 +171,7 @@
     .containerhebergement{
         width: 100%;
         margin-right: 0;
+        margin-left: 0px;
         height: auto;
        
        background-color: white;
@@ -271,11 +289,12 @@
 
     .divfooter1, .divfooter2, .divfooter3{
         width: 85%;
-        margin-right: 0px;
-        
-        
+        margin-right: 0px;  
     }
 
+    .divfooter1 a{
+        text-decoration: none;
+    }
     figure{
         margin: 0;
         padding: 0px;

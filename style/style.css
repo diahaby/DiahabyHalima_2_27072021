@@ -24,7 +24,7 @@ list-style-type: none;
 
 .bordernav a:hover{
     border-top: 2px solid #0065fc;
-    padding-top: 27px;
+    padding-top: 29px;
 }
 
 .bordernav1 a:hover{
@@ -34,13 +34,18 @@ list-style-type: none;
 ul.menu{
     display: flex;
     list-style-type: none;
-    justify-content: space-between;
-    width: 380px;
+    justify-content: space-evenly;
+    width: 320px;
     padding: 0px;
+    margin-right: 5px;
 
 }
 
-
+.lienmenu{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
 
 li.menu-item1 a{
     text-decoration: none;
@@ -51,7 +56,9 @@ li.menu-item1 a:hover{
     color: #0065fc;
 }
 
+.menu-item1{
 
+}
 
 .menuact a{
     color: black;
@@ -72,14 +79,16 @@ li.menu-item:hover a{
     color: #7fb2fd;
 }
 
-
-.lieninscrire a{
-    margin-left: 15px;
-    list-style: none;
-    color: black;
+.lieninscrire{
+    
+    padding-top: 16px;
+    margin-right: 15px;
     font-weight: bold;
     text-decoration: none;
+    color: black;
 }
+
+
 
 .lieninscrire a:hover{
     text-decoration: none;

@@ -54,6 +54,7 @@ li.menu-item1 a{
 li.menu-item1 a:hover{
     text-decoration: none;
     color: #0065fc;
+    width: 140px;
 }
 
 .menu-item1{
@@ -71,13 +72,7 @@ li.menu-item1 a:hover{
     text-decoration: none;
     color:#0065fc;
 }
-li.menu-item.login a{
-    font-weight: bold;
-}
 
-li.menu-item:hover a{
-    color: #7fb2fd;
-}
 
 .lieninscrire{
     
@@ -85,7 +80,7 @@ li.menu-item:hover a{
     margin-right: 15px;
     font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: #0065fc;
 }
 
 

@@ -29,9 +29,12 @@
         
     }
 
+    li.menu-item1 a{
+        padding-right: 50%;
+    }
     .menu-item1 :hover{
         border-bottom: 2px solid #0065fc;
-        width: 50%;
+        width: 24%;
         padding-bottom: 10px;
     }
 
@@ -41,6 +44,10 @@
         width: 50%;
         padding-bottom: 10px;
     
+    }
+
+    .menuact a{
+        padding-right: 50%;
     }
     
     .menuact :hover{
@@ -198,7 +205,7 @@
     }
 
     .foothebergement{
-        padding-left: 0px;
+        padding-left: 7px;
         margin-top: 0px;
     }
 

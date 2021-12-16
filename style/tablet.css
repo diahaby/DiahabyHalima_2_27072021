@@ -7,14 +7,14 @@
 .logoreservia{   
     width: 200px;
 }
-.nav{
-    flex-direction: column;
-}
+
 
 .nav .nav{
     flex-direction: column;
     width: 50%;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    flex-wrap: nowrap;
 }
 
 .menu{
@@ -97,7 +97,7 @@
     height: 75%;
 }
 
-.divfooter2{
+.ooter2{
     margin-bottom: 25px;
 }
 
